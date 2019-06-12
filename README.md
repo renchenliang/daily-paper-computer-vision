@@ -2,6 +2,7 @@
 **记录每天整理的计算机视觉/深度学习/机器学习相关方向的论文**
 
 ## 日记
+[Joint Face Detection and Facial Motion Retargeting for Multiple Faces](https://arxiv.org/abs/1902.10744)
 
 - [2018](2018-Paper.md)
 
