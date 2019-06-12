@@ -1,4 +1,5 @@
 
 [Joint Face Detection and Facial Motion Retargeting for Multiple Faces](https://arxiv.org/abs/1902.10744)
 
-![image](https://github.com/renchenliang/daily-paper-computer-vision/blob/master/face%20recognition/QQ%E5%9B%BE%E7%89%8720190612152651.png)
+![image](https://github.com/renchenliang/daily-paper-computer-vision/blob/master/face%20recognition/image/QQ%E5%9B%BE%E7%89%8720190612152651.png)
+  该文提出一个轻量级网络生成68landmark，并可以进行2d Alighment与3d Alighment。实验结果：人脸检测时间：34ms; Single face network(SFN)时间为15ms. 即1张人脸为49ms，5个人脸为109ms，10个人脸为184ms。  Mutiple face network(MFN)在任意多的人脸为39ms。
