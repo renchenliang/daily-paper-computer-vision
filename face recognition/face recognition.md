@@ -9,3 +9,4 @@
 [github](https://github.com/YadiraF/PRNet)
 -
 本文主要是从一幅二维脸部图像进行脸部三维重构以及dense alignment. 运行时间为100fps
+![](https://github.com/renchenliang/daily-paper-computer-vision/blob/master/face%20recognition/image/QQ%E5%9B%BE%E7%89%8720190615174941.png)
