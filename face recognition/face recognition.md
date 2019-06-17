@@ -33,5 +33,8 @@ softmax是将一串数值转化为0-1概率，经过e的放大之后，使得原
 将乘法m移到cos外面
 
 ![](https://github.com/renchenliang/daily-paper-computer-vision/blob/master/face%20recognition/image/Additive%20Angular%20Margin.png) <br>
-经过公式推导，cos(yi+m)与cos(yi ) m是类似的，但arcface的m是动态的，取决于sin
+经过公式推导，cos(yi+m)与cos(yi ) m是类似的，但arcface的m是动态的，取决于sin <br>
+
+由resnet18作为backbone，其大致为：
+m*n*3->resize(3,128,128),并镜像，batchsize=2->归一化(x-127.5)/127.5->64*128*128->Maxpool,64*64*64->64*64*64->128*16*16->256*8*8->resize(256*8*8)->全连接，输出batchsize*512特征向量
 
